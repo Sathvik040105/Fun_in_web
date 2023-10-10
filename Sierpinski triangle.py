@@ -1,8 +1,15 @@
+#Run the code
+#You will see a black screen
+#Click somewhere on the screen to place a point
+#Repeat it two more times to get three points, which form our triangle (these are coloured red)
+#Now place another random point somewhere inside of the triangle
+#Now program automatically starts to build the sierpinski triangle
+#If you want to pause, click "stop" button
+#If you want to resume it, click "run" button
+#If you want to start off with clean slate again, click "reset" button
+
 import pygame
 import random
-
-
-
 
 pygame.init()
 
