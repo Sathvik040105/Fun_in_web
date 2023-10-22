@@ -35,7 +35,7 @@ game_loop = True
 points_ver = []
 points_inter = []
 reset = False
-stop = False
+stop = True
 
 #Text
 font = pygame.font.Font(None, font_size)
