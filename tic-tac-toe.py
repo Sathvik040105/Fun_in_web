@@ -141,6 +141,7 @@ if __name__ == "__main__":
             time.sleep(1)
         else:
             curr_move = computer_move_engine(0 if computer_symbol == 'X' else 1)
+
             # curr_move = computer_move_random() #Uncomment this and comment above line to make computer choose the choice randomly
             board[curr_move[0]][curr_move[1]] = computer_symbol
             print("Computer's move: ")
